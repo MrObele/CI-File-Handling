@@ -77,6 +77,8 @@ public function login(){
 		} else {
 			 
 			 //document details
+			$filedata =  $this->upload->data();
+            $filename = $filedata['file_name'];
             $picture_value = array(
 			'fileName'    => $filename,
 			'imageExist'  => true
