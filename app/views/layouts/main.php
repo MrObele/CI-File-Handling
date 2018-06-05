@@ -25,9 +25,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav  menu" id ="menu">
-                  <?php if($this->session->userdata('logged_in')) : ?>
-                  <li><a href="<?php echo base_url('Users/logout'); ?>" class="active">Logout</a></li>
-                  <?php endif; ?>
+                  
                </ul>
             </div>
             <!-- /.navbar-collapse -->

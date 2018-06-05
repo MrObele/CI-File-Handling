@@ -36,7 +36,6 @@ hr{
 }
 
 .col-md-12{
-	//background:url(../images/schoolsystem.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -117,7 +116,6 @@ input, select,option{
 }
 
 .theader{
-	//color: rgba(255, 87, 34, 0.87);
 	color: white;
 	font-size: 20px;
 }
@@ -142,4 +140,10 @@ option{
 #menu{
 	height: auto;
 	padding: 5px;
+}
+#upload-link{
+	float: right;
+    /* margin-right: 139px; */
+    position: absolute;
+    left: 41%;
 }
