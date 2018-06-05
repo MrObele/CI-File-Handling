@@ -64,7 +64,7 @@ public function login(){
                 $config['max_height']           = 1500;
                 $this->load->library('upload', $config);
 
-		if($this->form_validation->run() == FALSE || !$this->upload->do_upload('picture')){
+		if($this->form_validation->run() == FALSE || !$this->upload->do_upload('document')){
 
 			//set file upload error message
 			$this->session->set_flashdata('image_error',$this->upload->display_errors());
