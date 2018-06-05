@@ -6,7 +6,7 @@
   <p class="alert alert-dismissable alert-success text-center"><?php echo $this->session->flashdata('user_signup');?></p>
 <?php endif; ?>
 <?php if($this->session->flashdata('login_failed')) : ?>
-  <p class="alert alert-dismissable alert-danger text-center"><?php echo $this->session->flashdata('login_failed');?>check your details and Try to Login again</p>
+  <p class="alert alert-dismissable alert-danger text-center"><?php echo $this->session->flashdata('login_failed');?></p>
 <?php endif; ?>
 <h3>Login</h3>
 <?php echo validation_errors('<p class="alert alert-dismissable alert-danger">'); ?>

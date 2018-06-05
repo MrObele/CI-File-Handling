@@ -43,7 +43,7 @@ public function login(){
 				
 			} else{
 				//Set error
-				$this->session->set_flashdata('login_failed','Sorry, Your Login Information is invalid');
+				$this->session->set_flashdata('login_failed','Sorry, Your Login Information is invalid check your details and Try to Login again');
 				redirect(base_url('	Login'));
 			}
              	
