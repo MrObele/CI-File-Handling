@@ -1,0 +1,145 @@
+body{
+	background:url(../images/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+h1, h2, h3, a, .profiletag{
+	color: rgba(255, 87, 34, 0.87);
+}
+ul li a{
+    text-decoration:none;
+}
+ul li{
+    list-style-type:none;
+}
+.nav{
+    color:white;
+}
+hr{
+	border:1px !important;
+}
+
+.middle-form{
+	width: 400px;
+    margin: 0 auto;
+}
+.home-div{
+	margin-top: 50px;
+}
+.well{
+	margin: 0 auto;
+	background-color: rgba(13, 12, 12, 0.33)! important;
+	color: white;
+	margin-bottom: 50px;
+	border: none;
+}
+
+.col-md-12{
+	//background:url(../images/schoolsystem.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p.registrationlink a{
+	text-decoration: none;
+	color: #DD5347;
+	font-weight: bold;
+}
+.btn{
+	background-color: #DD5347;
+	border-radius: 0;
+	padding: 10px;
+	border-color: #DD5347;
+}
+
+ul#actions{
+	padding: 0;
+	margin: 0;
+	float: right;
+	width: 180px;
+	padding: 5px;
+	background:#f4f4f4;
+	border:#ccc 1px solid;
+}
+
+p.profileLink{
+margin: 20px;
+}
+p.profileLink a{
+	text-decoration: none;
+	color: white;
+}
+.delete{
+	color: red;
+}
+.edit{
+	color:green;
+	
+}
+.profileedit {
+	position: relative;
+    top: -54px;
+    left: 70px;
+}
+form{
+	color: white;
+	text-align: left;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+input, select,option{
+	background-color: rgba(255, 254, 254, 0.29);
+	border: none;
+}
+
+.profileImage{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#imageedit{
+	position: absolute;
+}
+
+.details{
+	background-color: rgba(255, 255, 255, 0.28);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.logoImage{
+	width: 30px;
+	height: 30px;
+}
+
+.theader{
+	//color: rgba(255, 87, 34, 0.87);
+	color: white;
+	font-size: 20px;
+}
+
+.trow{
+	background-color: black;
+}
+.teacherupdate{
+	color: white;
+}
+h1.teacherupdate{
+	color: white !important;
+}
+option{
+	background-color: black;
+}
+
+.home-text{
+	color: #ffffff;
+}
+
+#menu{
+	height: auto;
+	padding: 5px;
+}
