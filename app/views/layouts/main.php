@@ -37,7 +37,7 @@
             
             <div class="col-md-12">
                <!--MAIN CONTENT-->
-               <?php $this->load->view($main_content); ?>	
+               <?php $this->load->view($main_content); ?>	this is where each view will be loaded into
             </div>
             <!--/span9-->
          </div>

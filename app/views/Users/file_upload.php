@@ -11,11 +11,6 @@
   <p class="alert alert-dismissable alert-danger text-center"><?php echo $this->session->flashdata('image_error');?></p>
 <?php endif; ?>
 
-<?php if($this->session->flashdata('upload_success')) : ?>
-<p class="alert alert-dismissable alert-success text-center"><?php echo $this->session->flashdata('upload_success');?></p>
-<?php endif; ?>
-
-
 <?php $attributes = array('id' => 'login_form','class'=> 'form-horizontal','enctype'=>'multipart/form-data','role'=>'form');?>
 <?php echo form_open('Upload/uploadFile',$attributes); ?>
 

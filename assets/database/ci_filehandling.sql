@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 05, 2018 at 04:22 AM
+-- Generation Time: Jun 06, 2018 at 11:11 PM
 -- Server version: 10.1.22-MariaDB
 -- PHP Version: 7.1.4
 
@@ -19,42 +19,36 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ci_mvc`
+-- Database: `ci-file-handling`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `files`
 --
 
-CREATE TABLE `users` (
- `id` int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
- `username` varchar(255) NOT NULL,
- `document` varchar(255) DEFAULT NULL,
- `password` varchar(255) NOT NULL
+CREATE TABLE `files` (
+  `id` int(11) NOT NULL,
+  `file` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
-
 --
--- Dumping data for table `users`
+-- Dumping data for table `files`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(2, 'dave', '70b9f55c5b2ab6ab9e5a3fed086f1ce7'),
-(3, 'admin', '0192023a7bbd73250516f069df18b500'),
-(4, 'myad', '7d478d6aab93551bbbbe9b861f1b73a4'),
-(5, 'mike', '4c3e1ec04215f69d6a8e9c023c9e4572');
+INSERT INTO `files` (`id`, `file`) VALUES
+(1, 'my_image2.jpg'),
+(2, 'image010.png');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `users`
+-- Indexes for table `files`
 --
-ALTER TABLE `users`
+ALTER TABLE `files`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -62,10 +56,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `files`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;COMMIT;
+ALTER TABLE `files`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
